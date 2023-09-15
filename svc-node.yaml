@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: srv-demo
   labels:
-    app: nginx
+    app: petclinic:1.0.0
 spec:
   type: NodePort
   selector:
